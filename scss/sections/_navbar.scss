@@ -1,0 +1,14 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+@use "../components/buttons" as *;
+.menu {
+  @include gradient;
+  .navbar-nav {
+    padding: 0 1rem;
+    a {
+      color: $white !important;
+      text-transform: capitalize;
+      font-weight: 500;
+    }
+  }
+}
