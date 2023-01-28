@@ -10950,6 +10950,10 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+div.box-filter-porto.hide {
+  display: none;
+}
+
 .portfolio-box {
   border-top: 0.6rem solid #bb6ef5;
   position: relative;
