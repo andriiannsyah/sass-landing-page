@@ -5,8 +5,8 @@
     display: none;
   }
   position: relative;
-  padding: 0.9375rem 4.375rem 0.9375rem 1.2rem;
-  font-weight: 600;
+  padding: 0.8375rem 3.375rem 0.8375rem 1rem;
+  font-weight: 500;
   margin: 0;
   border: 0.1rem solid rgba($white, 0.6);
   background-color: $white;
@@ -35,4 +35,9 @@
     // background-color: $primary;
     color: $white;
   }
+}
+
+.btn-primary {
+  background-color: $primary !important;
+  color: white;
 }
